@@ -16,6 +16,7 @@ body{
     position: absolute;
     left: 50%;
     top: 50%;
+    height: 100%;
     max-height: 555px;
     transform: translate(-50%,-50%);
     margin: auto;
@@ -24,10 +25,9 @@ body{
 .slide{
     background-repeat: no-repeat;
     display: none;
-    height: 580px;
+    height: 100%;
     position: relative;
     width: 263px;
-
 }
 .slide-right{
     animation: slideRight .1s ;
@@ -66,6 +66,7 @@ body{
 /*************************************** slide one ***************************************/
 .slide1{
     background-image:url("images/Capture1.PNG");
+    background-size: cover;
 }
 .s1-sec1{
     left: 150px;
@@ -73,7 +74,7 @@ body{
 }
 .s1-sec2{
     left: 31px;
-    top: 314px;
+    top: 57%;
 }
 .s1-btn1,.s2-btn1{
     border: 2px solid rgb(75,88,222) ;
@@ -87,7 +88,7 @@ body{
 }
 .s1-sec3{
     position: relative;
-    top: 315px;
+    top: 56%;
     text-align: center;
 }
 
@@ -95,6 +96,7 @@ body{
 /*************************************** slide two ***************************************/
 .slide2{
     background-image:url("images/Capture2.PNG");
+    background-size: cover;
 }
 .s2-sec1{
     left: 10px;
@@ -102,25 +104,27 @@ body{
 }
 .s2-sec2{
     left: 20px;
-    top: 300px;
+    top: 53%;
 }
 .s2-sec3{
     position: relative;
-    top: 300px;
+    top: 53%;
     text-align: center;
 }
 /*************************************** end slide two ***************************************/
 /*************************************** slide two ***************************************/
 .slide3{
     background-image:url("images/Capture3.PNG");
+    background-size: cover;
+
 }
 .s3-sec2{
     left: 18px;
-    top: 360px;
+    top: 63%;
 }
 .s3-sec3{
     position: relative;
-    top: 360px;
+    top: 63%;
     left: 100px;
     /*text-align: center;*/
 }
