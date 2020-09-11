@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    background: black;
+}
+.slider{
+    position: relative;
+    min-height: 100vh;
+    width:450px;
+    padding: 50px 100px;
+    margin: auto;
+    background: white;
+    box-sizing: border-box;
+}
+.slides{
+    width: 263px;
+    height: 580px;
+    margin: auto;
+    font-family: Sans-serif, serif;
+    overflow: hidden;
+}
+.slide{
+    background-repeat: no-repeat;
+    display: none;
+    height: 100%;
+    position: relative;
+    /*animation: slideIn .1s ;*/
+}
+.slide-right{
+    animation: slideRight .1s ;
+}
+.slide-left{
+    animation: slideLeft .1s ;
+}
+.slide-h{
+    padding: 38px 20px 0;
+    color:rgb(86,183,147) ;
+}
+.sec1{
+    color:rgb(86,183,147) ;
+    position: relative;
+    font-size: 13px;
+    font-weight: 700;
+}
+.sec2{
+    color: rgb(75,88,222);
+    position: relative;
+    font-size: 13px;
+}
+.btn1,.btn2{
+    border-radius: 15px;
+    padding: 5px 30px;
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn1:hover,.btn2:hover{
+    opacity: 0.8;
+}
+.active{
+    display: block;
+}
+/*************************************** slide one ***************************************/
+.slide1{
+    background-image:url("images/Capture1.PNG");
+}
+.s1-sec1{
+    left: 150px;
+    top: 124px;
+}
+.s1-sec2{
+    left: 31px;
+    top: 314px;
+}
+.s1-btn1,.s2-btn1{
+    border: 2px solid rgb(75,88,222) ;
+    color: rgb(75,88,222);
+}
+.s1-btn2,.s2-btn2,.s3-btn2{
+    background: rgb(75,88,222) ;
+    border: 2px solid rgb(75,88,222) ;
+    color: white;
+    margin-left: 55px;
+}
+.s1-sec3{
+    position: relative;
+    top: 315px;
+    text-align: center;
+}
+
+/*************************************** end slide one ***************************************/
+/*************************************** slide two ***************************************/
+.slide2{
+    background-image:url("images/Capture2.PNG");
+}
+.s2-sec1{
+    left: 10px;
+    top: 124px;
+}
+.s2-sec2{
+    left: 20px;
+    top: 300px;
+}
+.s2-sec3{
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+/*************************************** end slide two ***************************************/
+/*************************************** slide two ***************************************/
+.slide3{
+    background-image:url("images/Capture3.PNG");
+}
+.s3-sec2{
+    left: 18px;
+    top: 360px;
+}
+.s3-sec3{
+    position: relative;
+    top: 360px;
+    left: 100px;
+    /*text-align: center;*/
+}
+/*************************************** end slide three ***************************************/
+.left-slide,.right-slide{
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.left-slide{
+    left: 50px;
+}
+.right-slide{
+    right: 37px;
+}
+
+@keyframes slideLeft {
+    0%{
+        right: -130%;
+    }
+    100%{
+        right: 0;
+    }
+}
+@keyframes slideRight  {
+    0%{
+        left: -130%;
+    }
+    100%{
+        left: 0;
+    }
+}
