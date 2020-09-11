@@ -17,7 +17,7 @@ body{
     left: 50%;
     top: 50%;
     height: 100%;
-    max-height: 555px;
+    max-height: 500px;
     transform: translate(-50%,-50%);
     margin: auto;
     font-family: Sans-serif, serif;
@@ -36,7 +36,7 @@ body{
     animation: slideLeft .1s ;
 }
 .slide-h{
-    padding: 28px 20px 0;
+    padding: 25px 20px 0;
     color:rgb(86,183,147) ;
 }
 .sec1{
@@ -70,11 +70,11 @@ body{
 }
 .s1-sec1{
     left: 150px;
-    top: 124px;
+    top: 95px;
 }
 .s1-sec2{
     left: 31px;
-    top: 57%;
+    top: 52%;
 }
 .s1-btn1,.s2-btn1{
     border: 2px solid rgb(75,88,222) ;
@@ -88,7 +88,7 @@ body{
 }
 .s1-sec3{
     position: relative;
-    top: 56%;
+    top: 52%;
     text-align: center;
 }
 
@@ -100,15 +100,15 @@ body{
 }
 .s2-sec1{
     left: 10px;
-    top: 124px;
+    top: 80px;
 }
 .s2-sec2{
     left: 20px;
-    top: 53%;
+    top: 50%;
 }
 .s2-sec3{
     position: relative;
-    top: 53%;
+    top: 50%;
     text-align: center;
 }
 /*************************************** end slide two ***************************************/
