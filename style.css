@@ -238,6 +238,42 @@ a{
     font-size: 14px;
 }
 /*************************************** end slide 5 ***************************************/
+/*************************************** slide 6 ***************************************/
+.slide6 {
+    background-image: url("images/Capture5.PNG");
+}
+.s6-sec1 {
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+.s6-sec1 div button {
+    margin: 7px;
+    border-radius: 8px;
+    padding: 8px;
+    width: 80%;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 0 5px 1px #7a7777;
+}
+.s6-sec1 > p{
+    padding: 15px;
+    color: white;
+}
+.s6-sec2 {
+    position: relative;
+    top: 45%;
+    text-align: center;
+}
+.s6-sec2 .btn1{
+    border: 2px solid rgb(75, 88, 222);
+    color: rgb(75, 88, 222);
+    background-color: white;
+}
+.forget{
+    text-decoration: underline;
+}
+/*************************************** end slide 6 ***************************************/
 /*************************************** arrows ***************************************/
 .left-slide, .right-slide {
     position: absolute;
@@ -252,7 +288,79 @@ a{
 .right-slide {
     right: 37px;
 }
+/*************************************** slide 7 ***************************************/
+.slide7{
+    background-image: url("images/Capture7.PNG");
+}
+.items{
+    position: relative;
+    top: 44%;
+}
+.s6-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 10px 0;
+    color: white;
+}
+.item{
+    border-radius: 20%;
+    padding: 5px;
+    border: 1px solid red;
+    width: 25%;
+    background-image: linear-gradient(rgb(83,133,236), rgb(103,112,240) , rgb(131,94,247));
+}
+.slide7 p , .item h2 , .s2-items-last h3{
+    margin: 0;
+}
+.s2-items-last p {
+    font-size: 12px;
+}
+.s2-items-last {
+    background: white;
+    margin: 4px;
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(75, 88, 222);
+    position: relative;
+}
+.s2-items-last i{
+    position: absolute;
+    top: 38%;
+    right: 10px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    position: relative;
+    top: 45%;
+    padding: 0 7px;
+    color: rgb(75, 88, 222);
+    font-size: 12px;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer a{
+    color: rgb(75, 88, 222);
+}
+.footer-item:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
 /*************************************** end arrows ***************************************/
+/*************************************** footer ***************************************/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    color: #636262;
+    font-size: 20px;
+}
+footer i {
+    cursor: pointer;
+
+}
+/*************************************** end footer ***************************************/
 
 @keyframes slideLeft {
     0% {
@@ -271,15 +379,6 @@ a{
         left: 0;
     }
 }
-
-/*@media (max-width:263px){*/
-/*    .slides{*/
-/*        padding: 0;*/
-/*    }*/
-/*    .slide{*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
 @media (max-width:420px){
     .left-slide {
         left: 5%;
