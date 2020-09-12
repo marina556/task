@@ -238,6 +238,7 @@ a{
     font-size: 14px;
 }
 /*************************************** end slide 5 ***************************************/
+/*************************************** arrows ***************************************/
 .left-slide, .right-slide {
     position: absolute;
     top: 50%;
@@ -251,6 +252,7 @@ a{
 .right-slide {
     right: 37px;
 }
+/*************************************** end arrows ***************************************/
 
 @keyframes slideLeft {
     0% {
@@ -270,19 +272,14 @@ a{
     }
 }
 
-/*@media (max-width:425px) and (min-width:262px){*/
+/*@media (max-width:263px){*/
 /*    .slides{*/
-/*        padding: 20px;*/
+/*        padding: 0;*/
+/*    }*/
+/*    .slide{*/
+/*        width: 100%;*/
 /*    }*/
 /*}*/
-@media (max-width:263px){
-    .slides{
-        padding: 0;
-    }
-    .slide{
-        width: 100%;
-    }
-}
 @media (max-width:420px){
     .left-slide {
         left: 5%;
