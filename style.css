@@ -99,7 +99,7 @@ a{
 
 .s1-sec2 {
     left: 31px;
-    top: 52%;
+    top: 51%;
 }
 
 .s1-btn1, .s2-btn1 {
@@ -116,7 +116,7 @@ a{
 
 .s1-sec3 {
     position: relative;
-    top: 52%;
+    top: 51%;
     text-align: center;
 }
 
@@ -150,12 +150,12 @@ a{
 
 .s3-sec2 {
     left: 18px;
-    top: 63%;
+    top: 62%;
 }
 
 .s3-sec3 {
     position: relative;
-    top: 63%;
+    top: 61%;
     left: 100px;
     /*text-align: center;*/
 }
@@ -253,7 +253,6 @@ a{
 .left-slide, .right-slide {
     position: absolute;
     top: 50%;
-    padding: 10px;
     cursor: pointer;
 }
 
@@ -294,5 +293,14 @@ a{
     }
     .slide{
         width: 100%;
+    }
+}
+@media (max-width:420px){
+    .left-slide {
+        left: 5%;
+    }
+
+    .right-slide {
+        right: 5%;
     }
 }
