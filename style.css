@@ -350,20 +350,20 @@ a{
 /*************************************** end arrows ***************************************/
 /*************************************** footer ***************************************/
 footer{
-    padding: 0 35px;
     color: #636262;
     font-size: 20px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     background: white;
+    width: 100%;
+    text-align: center;
 }
 footer i {
+    width: 30%;
     cursor: pointer;
 
 }
-.fa-comment-alt{
-    margin: 0 80px;
-}
+
 /*************************************** end footer ***************************************/
 
 @keyframes slideLeft {
