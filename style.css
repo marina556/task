@@ -350,15 +350,19 @@ a{
 /*************************************** end arrows ***************************************/
 /*************************************** footer ***************************************/
 footer{
-    display: flex;
-    justify-content: space-between;
     padding: 0 35px;
     color: #636262;
     font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    background: white;
 }
 footer i {
     cursor: pointer;
 
+}
+.fa-comment-alt{
+    margin: 0 80px;
 }
 /*************************************** end footer ***************************************/
 
